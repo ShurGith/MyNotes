@@ -1,0 +1,28 @@
+.header{
+    background-color: #000022;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    .title{
+        margin: 0;
+    }
+    .nav-list{
+        display:flex;
+        justify-content: space-around;
+        list-style-type: none;
+        .link{
+            color:#fff;
+            font-size: 20px;
+            text-decoration: none;
+            padding:3px 6px; 
+            border:1px solid antiquewhite;
+            border-radius: 5px;
+            transition: .3s linear all ;
+            &:hover{
+                color:red;
+                background-color: antiquewhite;
+            }
+        }
+        
+    }
+}
