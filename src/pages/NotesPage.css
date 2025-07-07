@@ -1,0 +1,46 @@
+#notes-page {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .note-list {
+    list-style: none;
+    background-image: url("../assets/cork.jpg");
+    border: 10px solid brown;
+    width: 70%;
+    min-width: 450px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+summary {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: fit-content;
+  cursor: pointer;
+  color:green;
+}
+details pre{
+  color: blue; 
+  background-color: aquamarine;
+  padding: 50px 20px
+}
+summary::marker{
+  color: red;
+  content: " ✳️ 🚘 ";
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 50px;
+}
